@@ -1,5 +1,7 @@
-# Handle line endings for text files
+# Handle all text files, normalizing line endings
 * text=auto
 
-# Handle specific file types (e.g., Jupyter Notebooks)
+# Force LF line endings for specific files (like Jupyter notebooks and CSVs)
 *.ipynb text eol=lf
+*.csv text eol=lf
+*.yaml text eol=lf
