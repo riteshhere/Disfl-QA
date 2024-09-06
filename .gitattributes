@@ -1,0 +1,5 @@
+# Handle line endings for text files
+* text=auto
+
+# Handle specific file types (e.g., Jupyter Notebooks)
+*.ipynb text eol=lf
