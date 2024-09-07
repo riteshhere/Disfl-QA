@@ -29,22 +29,21 @@ Disfl-QA consists of ~12k disfluent questions with the following train/dev/test 
 
 ## Directory Structure
 --------------------------------------
-├── Final_model/
-│   ├── BART_Predication.csv     # Prediction on test set based on the selected model
-│   ├── Training_Arguments.csv   # Main model-building script
-│
-├── augemented_dataset/
-│   ├── DataAugmentation.ipynb   # Using data augemneation to increase the dataset
-│   ├── test_augmeneted.csv      # Test dataset after adding augmented data
-│   ├── train_augmeneted.csv     # Train dataset after adding augmented data
-│   └── val_augmeneted.csv       # val dataset after adding augmented data
+The directory structure below outlines how the project is organized and what each file and folder contains:
 
-│
-├── experimentations/
-│   ├── Disfl-qa.ipynb                # Experimentation on T5 and BART fine tuning
-│   └── Analysis_and_evalaution.ipynb # Analysis and eval of dataset and prediction 
-│
-├── README.md                    # Project overview and instructions for setup and usage
-├── report.pdf                   # report on the projects(fine tuning, evaluation and analysis)
-├── .gitignore                   # Specifies files and directories ignored by git
-└── LICENSE                      # License file for the project
+├── Final_model/  
+│   ├── BART_Predication.csv         # Prediction on test set based on the selected model  
+│   ├── Training_Arguments.csv       # Model-building script  
+├── augmented_dataset/  
+│   ├── DataAugmentation.ipynb       # Using data augmentation to increase the dataset  
+│   ├── test_augmeneted.csv          # Test dataset after adding augmented data  
+│   ├── train_augmeneted.csv         # Train dataset after adding augmented data  
+│   └── val_augmeneted.csv           # Validation dataset after adding augmented data  
+├── experimentations/  
+│   ├── Disfl-qa.ipynb               # Experimentation on T5 and BART fine-tuning  
+│   ├── Analysis_and_evaluation.ipynb # Analysis and evaluation of dataset and prediction  
+├── README.md                        # Project overview and instructions for setup and usage  
+├── report.pdf                       # Report on the project (fine-tuning, evaluation, and analysis)  
+├── .gitignore                       # Specifies files and directories ignored by Git  
+└── LICENSE                          # License file for the project  
+
