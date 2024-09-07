@@ -5,7 +5,8 @@ The goal of this project is to transform disfluent questions—those containing 
 
 ## DataSet
 
-Disfl-QA consists of ~12k disfluent questions with the following train/dev/test splits:
+Disfl-QA consists of ~12k disfluent questions with the following train/dev/test splits.
+Dataset can be downloaded from : [Disfl-QA dataset](https://github.com/google-research-datasets/Disfl-QA)
 
 |File                  | Questions |
 |----------------------|-----------|
@@ -16,6 +17,8 @@ Disfl-QA consists of ~12k disfluent questions with the following train/dev/test 
 
 
 ## Evaluation
+
+Evalautions are based on the BART model fine tuned on Disfl-QA dataset.
 
 | Metric              | Score     |
 |---------------------|-----------|
@@ -34,7 +37,7 @@ The directory structure below outlines how the project is organized and what eac
 
 ├── Final_model/  
 │   ├── BART_Predication.csv         # Prediction on test set based on the selected model  
-│   ├── Training_Arguments.csv       # Model-building script  
+│   ├── Training_Arguments.csv       # training arguments for replicating the results
 ├── augmented_dataset/  
 │   ├── DataAugmentation.ipynb       # Using data augmentation to increase the dataset  
 │   ├── test_augmeneted.csv          # Test dataset after adding augmented data  
