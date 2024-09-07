@@ -4,8 +4,9 @@
 The goal of this project is to transform disfluent questions—those containing hesitations, repetitions, and grammatical inconsistencies—into fluent, coherent, and grammatically correct questions using natural language processing (NLP) models. By leveraging pre-trained transformer-based models such as BART and T5, this project explores data analysis, model training, and evaluation, with a focus on improving model performance through data augmentation and fine-tuning.
 
 ## DataSet
--------------------
+
 Disfl-QA consists of ~12k disfluent questions with the following train/dev/test splits:
+
 |File                  | Questions |
 |----------------------|-----------|
 |Questions train.json  |   7182    |
@@ -15,7 +16,7 @@ Disfl-QA consists of ~12k disfluent questions with the following train/dev/test 
 
 
 ## Evaluation
--------------------------------------------
+
 | Metric              | Score     |
 |---------------------|-----------|
 | ROUGE-1             | 0.953951  |
